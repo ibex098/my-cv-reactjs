@@ -1,0 +1,40 @@
+.education {
+  .row {
+    padding: 100px 0 60px;
+    .educationTitle {
+      font-size: 3rem;
+      text-align: center;
+      margin-bottom: 80px;
+    }
+    .educationContent {
+      height: 100%;
+
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0px 10px 20px 4px #00000015;
+
+      background-color: #fff;
+      i {
+        color: #9774fa;
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 16px;
+      }
+      h5 {
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 18px;
+      }
+      p {
+        color: #0bceaf;
+      }
+      span {
+        font-size: 24px;
+        color: #0bceaf;
+      }
+      a {
+        color: #000;
+      }
+    }
+  }
+}

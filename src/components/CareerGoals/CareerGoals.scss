@@ -1,0 +1,29 @@
+.CareerGoals {
+  background-image: url(../../assets/img/home-bg-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  .CareerGoalsOverlay {
+    background-color: rgba(255, 255, 255, 0.9);
+    .row {
+      padding: 100px 0 60px;
+
+      @media (min-width: 768px) {
+        .col-md-6 {
+          margin: auto;
+        }
+      }
+      .CareerGoalsCaption {
+        ul {
+          list-style: none;
+          line-height: 23px;
+          width: 100%;
+          margin-top: 50px;
+          li {
+            padding: 8px 0;
+          }
+        }
+      }
+    }
+  }
+}

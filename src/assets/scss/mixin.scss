@@ -1,0 +1,21 @@
+// Custom class
+body {
+  color: #000;
+  background-color: transparent;
+  opacity: 0.8;
+  a {
+    text-decoration: none;
+  }
+  p {
+    font-size: 14px;
+  }
+  span {
+    font-size: 14px;
+  }
+}
+
+.container {
+  @media (min-width: 1400px) {
+    max-width: 1140px !important;
+  }
+}

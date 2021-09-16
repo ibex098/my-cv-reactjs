@@ -1,0 +1,36 @@
+.aboutMe {
+  .row {
+    padding: 100px 0 60px 0;
+  }
+  .aboutMeImage {
+  }
+  .aboutMeContent {
+    padding-left: 50px;
+    h2 {
+      font-weight: bold;
+      margin: 20px 0;
+    }
+    p {
+      margin-bottom: 30px;
+    }
+    .contentTechnology {
+      ul {
+        list-style: none;
+        display: inline-block;
+        padding: 0;
+        li {
+          float: left;
+          margin: 0px 6px 10px 6px;
+          border-radius: 4px;
+          padding: 4px 0px;
+          display: inline-block;
+          span {
+            border: 1px solid #0bceaf;
+            padding: 4px 10px;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+.myBanner {
+  background-image: url(../../assets/img/home-bg-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  margin: 0 auto;
+
+  .myBannerOverlay {
+    // background-color: rgba(225, 225, 225, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
+    .row {
+      padding: 180px 0;
+    }
+    .myBannerInfo {
+      div {
+        margin-bottom: 30px;
+        span {
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: 1px;
+          font-weight: bold;
+
+          background-color: #0bceaf;
+          color: #fff;
+
+          padding: 10px 30px;
+          border-radius: 20px 20px 20px 0px;
+        }
+      }
+      h2 {
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 65px;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      h4 {
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 30px;
+      }
+      padding-top: 100px;
+      ul {
+        padding: 0;
+        list-style: none;
+
+        li {
+          margin: 10px 0;
+
+          &:hover {
+            color: #0bceaf;
+            transition: all 0.3s ease;
+          }
+          .fas {
+            margin-right: 15px;
+            display: inline-block;
+          }
+          a {
+            color: #000;
+          }
+        }
+
+        + ul {
+          padding: 0;
+          display: inline-block;
+          list-style: none;
+          li {
+            float: left;
+
+            &:hover {
+              .fab {
+                color: #0bceaf;
+              }
+            }
+            a {
+              color: #000;
+              background-color: transparent;
+              opacity: 0.8;
+              .fab {
+                font-size: 18px;
+                line-height: 30px;
+                font-weight: 700 !important;
+
+                transition: 0.3s;
+                -webkit-transition: 0.3s;
+                border-radius: 3px;
+
+                padding: 4px 14px;
+                margin-right: 10px;
+                &:hover {
+                  background-color: #000;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .myBannerAvatar {
+      margin: 0 auto;
+      float: none;
+      margin-top: 115px;
+      text-align: center;
+      .avatarBorder {
+        height: 300px;
+        width: 300px;
+        border: 20px solid rgba(0, 0, 0, 0.07);
+        margin: 0 auto;
+        border-radius: 50%;
+        img {
+          margin: 0 auto;
+          float: none;
+          text-align: center;
+          border: 20px solid rgba(0, 0, 0, 0.17);
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+  @media (max-width: 575.99px) {
+    .myBannerOverlay {
+      .row {
+        padding: 180px 0 80px 0;
+      }
+      .myBannerAvatar {
+        margin-top: 15px;
+      }
+    }
+  }
+}
