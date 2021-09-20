@@ -1,40 +1,43 @@
 .myHeader {
-  position: fixed;
-  z-index: 1021;
-  width: 100%;
-  top: 0;
+   position: fixed;
+   z-index: 1021;
+   width: 100%;
+   top: 0;
 
-  &.scrollTop {
-    background-color: #fff;
-    box-shadow: -1px 1px 4px -1px rgba(0, 0, 0, 0.4);
-    transition: 0.3s;
-  }
+   &.scrollTop {
+      background-color: #fff;
+      box-shadow: -1px 1px 4px -1px rgba(0, 0, 0, 0.4);
+      transition: 0.3s;
+   }
 
-  .myHeaderLogo {
-    width: 50px;
-    height: auto;
-  }
-  .myHeaderContent {
-    font-size: 18px;
-    .nav-link {
-      color: #000 !important;
-      background-color: transparent;
+   .myHeaderLogo {
+      width: 50px;
+      height: auto;
+   }
+   .myHeaderContent {
+      font-size: 18px;
+      .nav-link {
+         color: #000 !important;
+         background-color: transparent;
 
-      padding: 0.5rem 0 !important;
-      margin: 0 20px;
+         padding: 0.5rem 0 !important;
+         margin: 0 20px;
 
-      font-weight: bold;
-      opacity: 0.8;
-      &:hover {
-        color: #0bceaf !important;
-        transition: color 0.3s ease;
+         font-weight: bold;
+         opacity: 0.8;
+         &:hover {
+            color: #0bceaf !important;
+            transition: color 0.3s ease;
+         }
+         &.active {
+            border-bottom: 1px solid;
+         }
       }
-    }
-  }
-  // Responsive
-  @media (max-width: 991.99px) {
-    background-color: #fff;
-    box-shadow: -1px 1px 4px -1px rgba(0, 0, 0, 0.4);
-    transition: 0.3s;
-  }
+   }
+   // Responsive
+   @media (max-width: 991.99px) {
+      background-color: #fff;
+      box-shadow: -1px 1px 4px -1px rgba(0, 0, 0, 0.4);
+      transition: 0.3s;
+   }
 }

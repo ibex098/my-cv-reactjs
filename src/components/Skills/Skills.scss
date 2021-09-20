@@ -1,86 +1,91 @@
 .skills {
-  .row {
-    padding: 100px 0 60px;
-    .skillsTechnical {
-      p {
-        margin-bottom: 0;
+   .row {
+      padding: 100px 0 60px;
+      .skillsTechnicalContent {
+         @media (max-width: 767.99px) {
+            margin-bottom: 50px;
+         }
       }
-      .progress {
-        height: 0.8rem;
-        .progress-bar {
-          background-color: #0bceaf;
-        }
+      .skillsTechnical {
+         p {
+            margin-bottom: 0;
+         }
+         .progress {
+            height: 0.8rem;
+            .progress-bar {
+               background-color: #0bceaf;
+            }
+         }
       }
-    }
-    .skillsProfessional {
-      // padding-left: 20%;
+      .skillsProfessional {
+         // padding-left: 20%;
 
-      ul {
-        list-style: none;
-        margin-top: 20px;
-        li {
-          display: inline-block;
-          text-align: center;
-          width: 48%;
-          // float: none;
+         ul {
+            list-style: none;
+            margin-top: 20px;
+            li {
+               display: inline-block;
+               text-align: center;
+               width: 48%;
+               // float: none;
 
-          margin-bottom: 30px;
+               margin-bottom: 30px;
 
-          .skillsProfessionalContent {
-            position: relative;
-            display: inline-block;
-            width: 100px;
-            height: 100px;
+               .skillsProfessionalContent {
+                  position: relative;
+                  display: inline-block;
+                  width: 100px;
+                  height: 100px;
 
-            & + div {
-              margin-top: 10px;
+                  & + div {
+                     margin-top: 10px;
+                  }
+                  path:nth-child(1) {
+                     stroke: rgba(0, 0, 0, 0.7);
+                  }
+                  path:nth-child(2) {
+                     stroke-dasharray: 273.493, 298.493;
+                     stroke-dashoffset: 14.9247;
+                     stroke: #0bceaf;
+                  }
+                  p {
+                     position: absolute;
+                     top: 50%;
+                     left: 50%;
+                     padding: 0px;
+                     margin: 0px;
+                     transform: translate(-50%, -50%);
+                  }
+               }
             }
-            path:nth-child(1) {
-              stroke: rgba(0, 0, 0, 0.7);
+            li:nth-child(2) {
+               .skillsProfessionalContent {
+                  path:nth-child(2) {
+                     stroke-dasharray: 298.493, 298.493;
+                     stroke-dashoffset: 134.322;
+                     stroke: #0bceaf;
+                  }
+               }
             }
-            path:nth-child(2) {
-              stroke-dasharray: 273.493, 298.493;
-              stroke-dashoffset: 14.9247;
-              stroke: #0bceaf;
+            li:nth-child(3) {
+               .skillsProfessionalContent {
+                  path:nth-child(2) {
+                     stroke-dasharray: 298.493, 298.493;
+                     stroke-dashoffset: 41.789;
+                     stroke: #0bceaf;
+                  }
+               }
             }
-            p {
-              position: absolute;
-              top: 50%;
-              left: 50%;
-              padding: 0px;
-              margin: 0px;
-              transform: translate(-50%, -50%);
+            li:nth-child(4) {
+               .skillsProfessionalContent {
+                  path:nth-child(2) {
+                     stroke-dasharray: 298.493, 298.493;
+                     stroke-dashoffset: 119.397;
+                     stroke: #0bceaf;
+                  }
+               }
             }
-          }
-        }
-        li:nth-child(2) {
-          .skillsProfessionalContent {
-            path:nth-child(2) {
-              stroke-dasharray: 298.493, 298.493;
-              stroke-dashoffset: 134.322;
-              stroke: #0bceaf;
-            }
-          }
-        }
-        li:nth-child(3) {
-          .skillsProfessionalContent {
-            path:nth-child(2) {
-              stroke-dasharray: 298.493, 298.493;
-              stroke-dashoffset: 41.789;
-              stroke: #0bceaf;
-            }
-          }
-        }
-        li:nth-child(4) {
-          .skillsProfessionalContent {
-            path:nth-child(2) {
-              stroke-dasharray: 298.493, 298.493;
-              stroke-dashoffset: 119.397;
-              stroke: #0bceaf;
-            }
-          }
-        }
+         }
       }
-    }
-  }
+   }
 }
